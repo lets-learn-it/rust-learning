@@ -7,11 +7,13 @@ fn main() {
   let age = t.1;
 
   println!("Name: {}, Age: {}", t.0, t.1);
+  println!("{:?}", t);
   println!("Name: {}, Age: {}", name, age);
 
   // Array
   let arr = [1,2,3,4,5];
   println!("{}", arr[0]);
+  println!("{:?}", arr);
 
   // initialize array
   let brr = [3; 5];

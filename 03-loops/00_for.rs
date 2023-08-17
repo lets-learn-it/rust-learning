@@ -8,6 +8,12 @@ fn main() {
 
   println!("");
 
+  for num in numbers {
+    print!("{} ", num);
+  }
+
+  println!("");
+
   for i in 0..5 {
     print!("{} ", i);
   }
