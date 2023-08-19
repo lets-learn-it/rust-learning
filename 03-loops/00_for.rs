@@ -8,6 +8,12 @@ fn main() {
 
   println!("");
 
+  for (index, num) in numbers.iter().enumerate() {
+    print!("Index: {}, Value: {} \n", index, num);
+  }
+
+  println!("");
+
   for num in numbers {
     print!("{} ", num);
   }

@@ -54,3 +54,9 @@
 
   let brr: [i32; 5] =  [1,2,3,4,5];
   ```
+
+## Constants
+
+- starts with `const` keyward.
+- datatype should be specified.
+- should be upper case. (else will produce warning)

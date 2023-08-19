@@ -10,6 +10,11 @@ fn main() {
   println!("{:?}", t);
   println!("Name: {}, Age: {}", name, age);
 
+  let t1 = (1, 2, ("Parikshit", 25));
+  let (name1, age1) = t;
+  println!("Name {}, Age {}", t1.2.0, t1.2.1);
+  println!("Name: {}, Age: {}", name1, age1);
+
   // Array
   let arr = [1,2,3,4,5];
   println!("{}", arr[0]);
