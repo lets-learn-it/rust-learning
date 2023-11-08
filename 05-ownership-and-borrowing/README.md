@@ -16,3 +16,9 @@
 
 - At any given time, you can have either one mutable reference or any number of immutable references
 - References must always be valid.
+
+## Mutable Reference
+
+- A mutable reference is a way to borrow data from an owner with the intent to modify it. Multiple mutable references to the same data are not allowed at the same time.
+- The owner retains ownership of the data, but during the borrowing period, the owner cannot access or modify the data.
+- Mutable references are subject to Rust's strict borrowing rules, which ensure data safety by preventing data races.
