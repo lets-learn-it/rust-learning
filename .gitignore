@@ -2,3 +2,4 @@
 *.pdb
 **/target/**
 *.out
+**/.debug/**
