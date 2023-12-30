@@ -13,7 +13,7 @@ fn without_ownership(s: &String) {
   println!("{}", s);
 }
 
-This function will give compile time error.
+// This function will give compile time error.
 fn dangling_reference() -> &String {
   let s = String::from("World");   // s is owner
 
@@ -30,4 +30,3 @@ fn no_dangling_reference() -> String {
 
   // s is returned, so s gives up ownership.
 }
-
