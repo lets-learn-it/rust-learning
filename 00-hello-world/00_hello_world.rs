@@ -9,4 +9,7 @@ fn main() {
   // formatted hello, <xyz>
   let greet = format!("Hello, {}, How is {}?", "ABC", "PQR");
   println!("{}", greet);
+
+  // stderr
+  eprintln!("Hi, This is stderr");
 }
