@@ -60,3 +60,10 @@
 - starts with `const` keyward.
 - datatype should be specified.
 - should be upper case. (else will produce warning)
+
+## Type cast
+
+```rust
+let x: f32 = 255.0;
+let y: u8 = x as u8 - 5;
+```
