@@ -13,4 +13,7 @@ fn main() {
     println!("Hi number {} from main thread!", i);
     thread::sleep(Duration::from_millis(10));
   }
+
+  // Note: When the main thread of rust program completes, all spawned threads are shut down,
+  // whether or not they have finished running.
 }
